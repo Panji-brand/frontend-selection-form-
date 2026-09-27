@@ -89,8 +89,44 @@ frontend-selection-form/
 
 ```
 git clone https://github.com/Panji-brand/frontend-selection-form-.git
-
+```
 ### 2. Navigate to the project directory
 
-```bash
+```
 cd frontend-selection-form-
+```
+
+### 3. Install dependencies
+
+```
+npm install
+```
+
+### 4. Run the development server
+
+```
+npm run dev
+```
+
+### 5. Open the application
+Open the following address in your browser:
+```
+http://localhost:3000
+```
+
+### extra info
+Screenshots
+
+The project was tested through several states:
+
+1. Initial Form
+   The initial state of the registration form before any information is entered.
+
+2. Form Validation
+   The form displays validation messages when the submitted information does not meet the required criteria.
+
+3. Submitting State
+   The submit button changes to Submitting... while the form is being processed.
+
+4. Registration Success
+   After valid information is submitted, the application displays a registration success message.
